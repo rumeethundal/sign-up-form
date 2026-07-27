@@ -4,10 +4,37 @@
 }
 
 body {
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
     background-color: lightblue;
     font-family: "Playfair Display", serif;
 }
 
 h1 {
     color: blue;
+}
+
+/* SideBar Styles */
+.sidebar {
+    width: 25%;
+    background-color: rgb(144, 144, 222);
+}
+
+/* Form Styles */
+.main {
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    gap: 150px;
+}
+
+.description {
+    display: flex;
+    flex-direction: column;
+}
+
+.form {
+    background-color: white;
+    padding: 100px;
 }
