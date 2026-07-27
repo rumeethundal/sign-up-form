@@ -1,0 +1,13 @@
+@font-face {
+    font-family: "Playfair Display";
+    src: url("./fonts/PlayfairDisplay-Regular.ttf");
+}
+
+body {
+    background-color: lightblue;
+    font-family: "Playfair Display", serif;
+}
+
+h1 {
+    color: blue;
+}
